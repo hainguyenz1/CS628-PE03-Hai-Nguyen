@@ -1,0 +1,57 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0; /* Light gray background */
+  min-height: 100vh; /* Ensure full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+}
+
+.input-area {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  width: 300px; /* Set a width for the list */
+}
+
+.task-item {
+  display: flex;
+  align-items: center; /* Vertically center */
+  justify-content: space-between; /* Distribute space between text and button */
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.task-item button {
+  background-color: #f44336; /* Red for delete button */
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+}
