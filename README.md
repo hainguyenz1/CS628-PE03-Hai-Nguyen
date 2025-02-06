@@ -15,8 +15,13 @@ The application's primary output is a dynamic list of ToDo tasks displayed on th
 
 ## Key Points and Explanations:
 State Management: useState is used to manage the input value (task) and the array of tasks (tasks).
+
 Component Structure: The app is broken down into App (main), TaskList, and Task components for better organization.
+
 Adding Tasks: handleAddTask adds a new task object (with a unique id and text) to the tasks array. It also clears the input field.
+
 Deleting Tasks: handleDeleteTask filters the tasks array, removing the task with the matching id.
+
 Rendering the List: tasks.map() dynamically renders the list of Task components in TaskList.
+
 Styling: Basic CSS is provided to style the app
